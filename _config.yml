@@ -1,7 +1,10 @@
 # Setup
-title: Not Pure Poole
-description: A simple, beautiful, and powerful Jekyll theme for blogs
-url: https://vszhub.github.io
+locale: "ko"
+title: Universe of geunwon
+description: 개발 공부 블로그
+url: https://MAGEUNWON.github.io
+repository: "MAGEUNWON/MAGEUNWON.github.io"
+search : true
 avatar: /avatar.jpeg
 paginate: 5
 permalink: pretty
@@ -33,10 +36,10 @@ twitter:
   card: summary
 logo: logo.png
 social:
-  name: Songzi Vong
+  name: geunwon
   links:
     - https://twitter.com/vszhub
-    - https://github.com/vszhub
+    - https://github.com/MAGEUNWON
 google_site_verification: xxxxx
 lang: en
 
@@ -54,6 +57,8 @@ sass:
 
 # Specify the author for blog posts
 author:
-  name: Songzi Vong
+  name: geunwon
   url: https://github.com/vszhub/
-  email: vszhub@gmail.com
+  location: "Seoul,Korea"
+  # email: vszhub@gmail.com
+  github : "MAGEUNWON"
