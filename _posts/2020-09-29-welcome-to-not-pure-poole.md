@@ -1,43 +1,74 @@
 ---
 layout: post
-title: Welcome to Not Pure Poole
-date: 2020-09-29 23:18 +0800
-last_modified_at: 2020-10-01 01:08:25 +0800
+title: 어떻게 바꾸지, date날짜 어떻게 바꾸는 거지 
+date: 020-09-29 23:18 +0800
+# last_modified_at: 2020-10-01 01:08:25 +0800
 tags: [jekyll theme, jekyll, tutorial]
 toc:  true
 ---
-Welcome to **Not Pure Poole**! This is an example post to show the layout.
+<!-- Welcome to **Not Pure Poole**! This is an example post to show the layout. -->
+블로그 시작이지롱
 {: .message }
 
-First, do you notice the TOC on the right side? Try to scroll down to read this post, you'll find that the TOC is always sticky in the viewport.
+<!-- 2020-09-29 23:18 +0800 -->
+<!-- First, do you notice the TOC on the right side? Try to scroll down to read this post, you'll find that the TOC is always sticky in the viewport.
 
 Cum sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur ridiculus mus. *Aenean eu leo quam.* Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.
 
 > Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.
 
-Etiam porta **sem malesuada magna** mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.
+Etiam porta **sem malesuada magna** mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur. -->
 
-## Inline HTML elements
+깃허브 블로그 어렵구나 
 
-HTML defines a long list of available inline tags, a complete list of which can be found on the [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web/HTML/Element).
+<!-- ## Inline HTML elements -->
+## 샵을 두개쓰면 굵어지니?
+그런가 보구나
 
-- **To bold text**, use `<strong>`.
-- *To italicize text*, use `<em>`.
-- <mark>To highlight</mark>, use `<mark>`.
-- Abbreviations, like <abbr title="HyperText Markup Langage">HTML</abbr> should use `<abbr>`, with an optional `title` attribute for the full phrase.
-- Citations, like <cite>&mdash; Mark Otto</cite>, should use `<cite>`.
-- <del>Deleted</del> text should use `<del>` and <ins>inserted</ins> text should use `<ins>`.
-- Superscript <sup>text</sup> uses `<sup>` and subscript <sub>text</sub> uses `<sub>`.
+<!-- HTML defines a long list of available inline tags, a complete list of which can be found on the [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web/HTML/Element). -->
 
-Most of these elements are styled by browsers with few modifications on our part.
+사용 방법을 배워보자
 
-## Footnotes
+- 얘는 점을 그려주는 군(- 띄어쓰기 해줘야하네)
+- * 오 별 한개(*)는 빈 원이야. 
+- **별 두개 사이에 넣으면 굵어지는군**, `<strong>` 태그 효과 인가봐. 강조인게지. 태그 문자로 쓸거니까 백틱안에 넣어줘야 하나보군
+<!-- - **To bold text**, use `<strong>`. -->
+- *별 한개 사이에 넣으면 기울임 효과* `<em>` 태그 효과 인가봐.
+<!-- - *To italicize text*, use `<em>`. -->
+- <mark>mark 태그 사이에 넣으면 highlight 효과를 주는군</mark>, `<mark>` 태그 효과
 
-Footnotes are supported as part of the Markdown syntax. Here's one in action. Clicking this number[^fn-sample_footnote] will lead you to a footnote. The syntax looks like:
+<!-- - <mark>To highlight</mark>, use `<mark>`. -->
+- <abbr title = "HyperText Markup Langage">뭐지이건</abbr>, `<abbr title> 어쩌고 </abbr>` 이렇게 쓰면 어쩌고가 hypertext markup langage가 된데
+
+<!-- - Abbreviations, like <abbr title="HyperText Markup Langage">HTML</abbr> should use `<abbr>`, with an optional `title` attribute for the full phrase. -->
+
+- <cite>&mdash; 얜 또 뭐지</cite> 얜 `<cite>&mdash; 어쩌고</cite>` 이렇게 써주면 어쩌고 앞에 작대기가 생기는데 뭔지 모르겠네. 찾아보자
+
+<!-- - Citations, like <cite>&mdash; Mark Otto</cite>, should use `<cite>`. -->
+- <del>삭제</del>, `<del>` 태그 안에 글 써주면 삭제 표시되나봐. <ins> 추가 </ins> `<ins>`태그 안에 글 쓰고 문장 사이에 넣어주면 추가가 되는듯
+<!-- - <del>Deleted</del> text should use `<del>` and <ins>inserted</ins> text should use `<ins>`. -->
+- Superscript는 <sup> 짜잔 </sup> 이렇게 위에 표시되게 하나봐 `<sub>` 태그 사이에 글 써준게 짜짠처럼 되는 듯
+<!-- - Superscript <sup>text</sup> uses `<sup>` and subscript <sub>text</sub> uses `<sub>`. -->
+
+<!-- Most of these elements are styled by browsers with few modifications on our part. -->
+
+## Footnotes 에 대해 알아보자(각주임)
+
+Footnotes are supported as part of the Markdown syntax. Here's one in action. 눌러라 이 번호를[^fn-sample_footnote] will lead you to a footnote[^2]. The syntax looks like: 
+
 
 {% highlight text %}
 Clicking this number[^fn-sample_footnote]
 {% endhighlight %}
+
+왜 각주가 1개 이상 안달리냐고
+
+<!-- <sup>[2](#footnote_2)</sup> -->
+
+<!-- {% highlight text %}
+뭔지 모르겠네[^fn-ex_footnote]
+{% endhighlight %} -->
+
 
 Each footnote needs the `^fn-` prefix and a unique ID to be referenced for the footnoted content. The syntax for that list looks something like this:
 
@@ -45,11 +76,17 @@ Each footnote needs the `^fn-` prefix and a unique ID to be referenced for the f
 [^fn-sample_footnote]: Handy! Now click the return link to go back.
 {% endhighlight %}
 
+{% highlight text %}
+[^fn-num_footnote] : 다시 위로 가는건가?
+{% endhighlight %}
+
 You can place the footnoted content wherever you like. Markdown parsers should properly place it at the bottom of the post.
 
-## Heading
+## Heading (Heading 달아주면 또 효과가 있나봐)
 
-Vivamus sagittis lacus vel augue rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
+<!-- Vivamus sagittis lacus vel augue rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. -->
+얄리얄리얄라셩 얄라리얄라   
+코드 부터는 다음에 하자 
 
 ### Code
 
@@ -167,3 +204,7 @@ Nullam id dolor id nibh ultricies vehicula ut id elit. Sed posuere consectetur e
 Want to see something else added? <a href="https://github.com/vszhub/not-pure-poole/issues/new">Open an issue.</a>
 
 [^fn-sample_footnote]: Handy! Now click the return link to go back.
+<!-- [^fn-ex_footnote] : 다시 위로 가는건가? -->
+<!-- <a name = "footnoet_2">2</a>: 두 번째 주석 -->
+[^1]: 첫번째 주석
+<!-- [^2] : 두번 째 주석 -->
