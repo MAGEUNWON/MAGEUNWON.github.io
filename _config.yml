@@ -1,5 +1,6 @@
 # Setup
 locale: "ko"
+timeZone: Asia/Seoul
 title: Universe of geunwon
 description: 개발 공부 블로그
 url: https://MAGEUNWON.github.io
@@ -46,6 +47,24 @@ lang: en
 sass:
   sass_dir: _sass
   style: :compressed
+
+comments:
+  provider : "disqus"
+  disqus: 
+    shortname: dev-hundred-blog
+
+defaults:
+  #_posts
+  -scope:
+    path: ""
+    type: posts
+  values:
+    layout: single
+    author_profile: true
+    read_time: false
+    comments: true #댓글 활성화
+    share: true
+    related: true
 
 # Options
 
