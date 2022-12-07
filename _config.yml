@@ -9,7 +9,7 @@ search : true
 avatar: /IMG_2594.jpg
 paginate: 5
 permalink: pretty
-cover_image: /frog.jpg
+cover_image: /frog.png
 
 # Gems
 plugins:
