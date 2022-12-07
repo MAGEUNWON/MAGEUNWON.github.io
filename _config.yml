@@ -6,10 +6,10 @@ description: 개발 공부 블로그
 url: https://MAGEUNWON.github.io
 repository: "MAGEUNWON/MAGEUNWON.github.io"
 search : true
-avatar: /avatar.jpeg
+avatar: /IMG_2594.jpg
 paginate: 5
 permalink: pretty
-cover_image: /bg.jpeg
+cover_image: /frog.jpg
 
 # Gems
 plugins:
