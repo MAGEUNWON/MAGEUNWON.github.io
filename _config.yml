@@ -39,7 +39,6 @@ logo: logo.png
 social:
   name: geunwon
   links:
-    - https://twitter.com/vszhub
     - https://github.com/MAGEUNWON
 google_site_verification: xxxxx
 lang: en
@@ -77,7 +76,7 @@ defaults:
 # Specify the author for blog posts
 author:
   name: geunwon
-  url: https://github.com/vszhub/
+  url: https://github.com/MAGEUNWON
   location: "Seoul,Korea"
   # email: vszhub@gmail.com
   github : "MAGEUNWON"
