@@ -1,7 +1,7 @@
 # Setup
 locale: "ko"
 timeZone: Asia/Seoul
-title: Universe of geunwon
+title: Geunwon of universe 
 description: 개발 공부 블로그
 url: https://MAGEUNWON.github.io
 repository: "MAGEUNWON/MAGEUNWON.github.io"
